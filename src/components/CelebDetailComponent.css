@@ -1,0 +1,98 @@
+#detail-wrap {
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+}
+
+#detail-wrap #contents {
+    padding: 2.5rem 0;
+}
+
+#detail-wrap #contents .title {
+    padding: 0 1.25rem;
+    margin-bottom: 2.5rem;
+}
+
+#contents .title .celeb-info {
+    font-size: 0.75rem;
+    font-weight: 300;
+    color: #666666;
+}
+
+#contents .title .celeb-info .dot {
+    color: #C1C1C1;
+    display: inline-block;
+    margin: 0 0.25rem;
+}
+
+#contents .title .celeb-info .age {
+    font-weight: 700;
+    color: #FA1155;
+}
+
+#contents .title .celeb-profile .text {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #2E3C52;
+}
+
+#contents .title .celeb-profile .nick-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2rem;
+    color: #111111;
+}
+
+/* 캐러셀 영역만 스크롤 */
+.carousel-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;   /* ⭐ 전체 중앙 */
+    overflow: hidden;          /* ⭐ 화면 밖 가리기 */
+    margin-top: 2rem;
+}
+
+.carousel-wrapper .swiper {
+    width: 100%;
+    padding: 0 0.75rem;        /* 좌우 여백 → 살짝 보이게 */
+}
+.carousel-wrapper .swiper .swiper-slide {
+    width: 15rem;
+}
+
+.carousel-wrapper .img-box {
+    width: 15rem;
+    height: 20rem;
+    border-radius: 0.75rem;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #F7F7F7;
+    background: #F1F1F1;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-wrapper .img-box .overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+            to bottom,
+            rgba(28, 30, 34, 0) 40%,
+            rgba(28, 30, 34, 1) 100%
+    );
+    z-index: 1;
+}
+
+
+/* 가운데 슬라이드 강조 */
+/*.swiper-slide-active .img-box {*/
+/*    transform: scale(1.05);*/
+/*    transition: transform 0.3s ease;*/
+/*}*/

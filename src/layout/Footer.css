@@ -1,0 +1,140 @@
+footer {
+    padding: 1rem 1rem 3.125rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5rem;
+}
+
+footer .contact-box {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.25rem 0.25rem 0.25rem 0.75rem;
+    border-radius: 2rem;
+    border: 1px solid #F1F1F1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .contact-box span {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 0.75rem;
+    color: #7D8A9F;
+}
+
+footer .contact-box button {
+    background: #1C1E22;
+    border-radius: 1.125rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    line-height: 1.25rem;
+    color: white;
+}
+
+footer .info .prod {
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1rem;
+    color: #7D8A9F;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 0.25rem;
+    cursor: pointer;
+}
+
+/* 화살표 */
+.arrow {
+    transition: transform 0.3s ease;
+}
+
+.arrow.open {
+    transform: rotate(180deg);
+}
+
+/* 펼쳐지는 영역 */
+.info-detail {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.info-detail.open {
+    max-height: 1000px;
+}
+
+.prod span {
+    margin-right: 0.25rem;
+}
+
+/* 화살표 */
+.arrow {
+    transition: transform 0.3s ease;
+}
+
+.arrow.open {
+    transform: rotate(180deg);
+}
+
+/* 펼쳐지는 영역 */
+.info-detail {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.4s ease;
+}
+
+.info-detail.open {
+    max-height: 500px;
+}
+
+/* 정책 텍스트 */
+.policy-list {
+    display: flex;
+    margin-top: 0.75rem;
+    font-size: 0.6875rem;
+    font-weight: 600;
+    color: #7D8A9F;
+}
+
+.policy-list li {
+    margin-right: 0.5rem;
+}
+
+.policy-list .divider {
+    font-weight: 300;
+}
+
+.policy-list .highlight {
+    color: #1C1E22;
+}
+
+/* 회사 정보 */
+.company-info {
+    margin-top: 0.75rem;
+    font-size: 0.6875rem;
+    color: #7D8A9F;
+    line-height: 1.5;
+}
+
+.company-info .line {
+    margin-top: 0.25rem;
+}
+
+.company-info .gap {
+    display: inline-block;
+    width: 0.75rem;
+}
+
+.copyright {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 0.75rem;
+    color: #C1C1C1;
+}
+
+.copyright span {
+    font-weight: 600;
+}
