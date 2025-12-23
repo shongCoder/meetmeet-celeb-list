@@ -81,7 +81,7 @@ function CelebListComponent() {
                                 </div>
                             </div>
 
-                            <div className="overlay"></div>
+                            {/*<div className="overlay"></div>*/}
                         </li>
                     ))}
                 </ul>
