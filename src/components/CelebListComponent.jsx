@@ -58,26 +58,26 @@ function CelebListComponent() {
                                 <div></div>
 
                                 <div className="celeb-profile">
-                                    <div className="celeb-name">
-                                        {celeb.isOnline && <div className="online"></div>}
+                                    {/*<div className="celeb-name">*/}
+                                    {/*    {celeb.isOnline && <div className="online"></div>}*/}
 
-                                        <span className="nick-name">{celeb.nickname}</span>
+                                    {/*    <span className="nick-name">{celeb.nickname}</span>*/}
 
-                                        {celeb.isVerified && (
-                                            <img src={VerifyIcon} alt="verify icon" />
-                                        )}
+                                    {/*    {celeb.isVerified && (*/}
+                                    {/*        <img src={VerifyIcon} alt="verify icon" />*/}
+                                    {/*    )}*/}
 
-                                        {celeb.isPaid && (
-                                            <img src={PaidIcon} alt="paid icon" />
-                                        )}
-                                    </div>
+                                    {/*    {celeb.isPaid && (*/}
+                                    {/*        <img src={PaidIcon} alt="paid icon" />*/}
+                                    {/*    )}*/}
+                                    {/*</div>*/}
 
-                                    <div className="celeb-info">
-                                        <img src={KoreaIcon} alt="korea icon" />
-                                        <span className="region">{celeb.country}</span>
-                                        <span className="dot">・</span>
-                                        <span className="age">{celeb.age}</span>
-                                    </div>
+                                    {/*<div className="celeb-info">*/}
+                                    {/*    <img src={KoreaIcon} alt="korea icon" />*/}
+                                    {/*    <span className="region">{celeb.country}</span>*/}
+                                    {/*    <span className="dot">・</span>*/}
+                                    {/*    <span className="age">{celeb.age}</span>*/}
+                                    {/*</div>*/}
                                 </div>
                             </div>
 

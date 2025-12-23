@@ -31,18 +31,18 @@ function Footer() {
                     <div className={`info-detail ${isOpen ? "open" : ""}`}>
                         <div className="company-info">
                             <div className="line">
-                                대표 : 황성연
+                                대표 : 안영상
                                 <span className="gap" />
-                                사업자 등록번호 : 126-86-35315
+                                사업자 등록번호 : 438-86-03453
                             </div>
                             <div className="line">
-                                주소 : 경기도 광주시 문형산길 93, 202-에이8호
+                                통신판매업 신고번호 : 2025-용인기흥-02397호
                             </div>
                             <div className="line">
-                                이메일 : meetmeet.help@gmail.com
+                                주소 : 경기도 용인시 기흥구 구갈로60번길 9-1, 6층 602-에이64(구갈동, 라파빌딩)
                             </div>
                             <div className="line">
-                                상담전화 : 070-000-0000
+                                이메일 : meetmeet.help24@gmail.com
                             </div>
                         </div>
                     </div>
